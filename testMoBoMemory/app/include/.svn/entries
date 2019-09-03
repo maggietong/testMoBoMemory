@@ -1,0 +1,41 @@
+8
+
+dir
+326
+http://10.190.240.250/svn/sw/att/trunk/testMoBoMemory/app/include
+http://10.190.240.250/svn/sw/att
+
+
+
+2012-11-08T22:57:23.447003Z
+9
+jackie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf58ce1d-9c4c-46b1-804d-100ce70e1453
+
+common.h
+file
+
+
+
+
+2012-11-14T02:26:17.603624Z
+a344569b11a737791ddf2555ad76201a
+2012-11-08T22:57:23.447003Z
+9
+jackie
+has-props
+

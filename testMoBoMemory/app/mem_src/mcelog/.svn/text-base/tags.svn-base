@@ -1,0 +1,948 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BITS_PER_INT	mcelog.h	113;"	d
+BITS_PER_LONG	mcelog.h	114;"	d
+BITS_PER_U	yellow.c	31;"	d	file:
+BUS_II_MASK	p4.c	139;"	d	file:
+BUS_II_SHIFT	p4.c	140;"	d	file:
+BUS_LL_MASK	p4.c	137;"	d	file:
+BUS_LL_SHIFT	p4.c	138;"	d	file:
+BUS_PP_MASK	p4.c	145;"	d	file:
+BUS_PP_SHIFT	p4.c	146;"	d	file:
+BUS_RRRR_MASK	p4.c	141;"	d	file:
+BUS_RRRR_SHIFT	p4.c	142;"	d	file:
+BUS_T_MASK	p4.c	143;"	d	file:
+BUS_T_SHIFT	p4.c	144;"	d	file:
+C	dbquery.c	11;"	d	file:
+CACHE_LL_MASK	p4.c	130;"	d	file:
+CACHE_LL_SHIFT	p4.c	131;"	d	file:
+CACHE_RRRR_MASK	p4.c	134;"	d	file:
+CACHE_RRRR_SHIFT	p4.c	135;"	d	file:
+CACHE_TT_MASK	p4.c	132;"	d	file:
+CACHE_TT_SHIFT	p4.c	133;"	d	file:
+CASE_INTEL_CPUS	intel.h	8;"	d
+CC	Makefile	/^CC= gcc$/;"	m
+COLLECT	dmi.c	320;"	d	file:
+COLLECT	dmi.c	341;"	d	file:
+COMLIB	Makefile	/^COMLIB=$/;"	m
+CONFIG_FILENAME	paths.h	5;"	d
+CPRINT	mcelog.c	430;"	d	file:
+CPRINT	mcelog.c	438;"	d	file:
+CPU_CORE2	mcelog.h	/^	CPU_CORE2, \/* 65nm and 45nm *\/$/;"	e	enum:cputype
+CPU_DUNNINGTON	mcelog.h	/^	CPU_DUNNINGTON,$/;"	e	enum:cputype
+CPU_GENERIC	mcelog.h	/^	CPU_GENERIC,$/;"	e	enum:cputype
+CPU_INTEL	mcelog.h	/^	CPU_INTEL, \/* Intel architectural errors *\/$/;"	e	enum:cputype
+CPU_K8	mcelog.h	/^	CPU_K8,$/;"	e	enum:cputype
+CPU_NEHALEM	mcelog.h	/^	CPU_NEHALEM,$/;"	e	enum:cputype
+CPU_P4	mcelog.h	/^	CPU_P4,$/;"	e	enum:cputype
+CPU_P6OLD	mcelog.h	/^	CPU_P6OLD,$/;"	e	enum:cputype
+CPU_SANDY_BRIDGE	mcelog.h	/^	CPU_SANDY_BRIDGE, $/;"	e	enum:cputype
+CPU_SANDY_BRIDGE_EP	mcelog.h	/^	CPU_SANDY_BRIDGE_EP, $/;"	e	enum:cputype
+CPU_TULSA	mcelog.h	/^	CPU_TULSA,$/;"	e	enum:cputype
+CPU_XEON75XX	mcelog.h	/^	CPU_XEON75XX, $/;"	e	enum:cputype
+DATA	cache.c	/^	enum { INSTR, DATA, UNIFIED } type; $/;"	e	enum:cache::__anon1	file:
+DB_NEW	db.c	99;"	d	file:
+DBerror	db.c	/^static void DBerror(char *fmt, ...)$/;"	f	file:
+DEBUG	tests/Makefile	/^DEBUG =$/;"	m
+DFLAGS	Makefile	/^DFLAGS= -g -Wall -fPIC$/;"	m
+DIMM_DB_FILENAME	paths.h	4;"	d
+DISKDB_OPTIONS	diskdb.h	16;"	d
+DISKDB_OPTIONS	diskdb.h	30;"	d
+DMIGET	dmi.c	429;"	d	file:
+DMI_MEMORY_ARRAY	dmi.h	/^	DMI_MEMORY_ARRAY = 16,$/;"	e	enum:__anon3
+DMI_MEMORY_ARRAY_ADDR	dmi.h	/^	DMI_MEMORY_ARRAY_ADDR = 19,$/;"	e	enum:__anon3
+DMI_MEMORY_DEVICE	dmi.h	/^	DMI_MEMORY_DEVICE = 17,$/;"	e	enum:__anon3
+DMI_MEMORY_MAPPED_ADDR	dmi.h	/^	DMI_MEMORY_MAPPED_ADDR = 20,$/;"	e	enum:__anon3
+DUMPSTR	dmi.c	280;"	d	file:
+DUMP_ALL	memdb.h	/^	DUMP_ALL  = (1 << 0),$/;"	e	enum:printflags
+DUMP_BIOS	memdb.h	/^	DUMP_BIOS = (1 << 1),$/;"	e	enum:printflags
+D_BYTE	dimm.c	/^	enum { D_STR, D_BYTE, D_WORD, D_SIZE } type;$/;"	e	enum:key::__anon2	file:
+D_SIZE	dimm.c	/^	enum { D_STR, D_BYTE, D_WORD, D_SIZE } type;$/;"	e	enum:key::__anon2	file:
+D_STR	dimm.c	/^	enum { D_STR, D_BYTE, D_WORD, D_SIZE } type;$/;"	e	enum:key::__anon2	file:
+D_WORD	dimm.c	/^	enum { D_STR, D_BYTE, D_WORD, D_SIZE } type;$/;"	e	enum:key::__anon2	file:
+ENTRY_CHUNK	db.c	77;"	d	file:
+EXTRACT	bitfield.h	32;"	d
+Enomem	memutil.c	/^void Enomem(void)$/;"	f
+Eprintf	config.c	36;"	d	file:
+Eprintf	dbquery.c	/^void Eprintf(char *fmt, ...)$/;"	f
+Eprintf	msg.c	/^void Eprintf(char *fmt, ...)$/;"	f
+FAILED	dmi.c	376;"	d	file:
+FIELD	bitfield.h	16;"	d
+FIELD	mcelog.c	550;"	d	file:
+FNV32_OFFSET	memdb.c	64;"	d	file:
+FNV32_PRIME	memdb.c	65;"	d	file:
+FREE	dmi.c	538;"	d	file:
+GET_MCE	mce_extern.h	24;"	d
+GET_MSR_MCE	mce_extern.h	26;"	d
+Gprintf	msg.c	/^void Gprintf(char *fmt, ...)$/;"	f
+HEXNUMBER	bitfield.h	21;"	d
+HEXNUMBERFORCE	bitfield.h	22;"	d
+IA32_MCG_CAP	mcelog.h	/^    __u64   IA32_MCG_CAP;$/;"	m	struct:mce_global_ctrl_msrs
+IA32_MCG_CTL	mcelog.h	/^    __u64   IA32_MCG_CTL;$/;"	m	struct:mce_global_ctrl_msrs
+IA32_MCG_STATUS	mcelog.h	/^    __u64   IA32_MCG_STATUS;$/;"	m	struct:mce_global_ctrl_msrs
+IA32_MCi_ADDR	mcelog.h	/^    __u64   IA32_MCi_ADDR;$/;"	m	struct:mce_bank_msrs
+IA32_MCi_CTL	mcelog.h	/^    __u64   IA32_MCi_CTL;$/;"	m	struct:mce_bank_msrs
+IA32_MCi_CTL2	mcelog.h	/^    __u64   IA32_MCi_CTL2;$/;"	m	struct:mce_bank_msrs
+IA32_MCi_MISC	mcelog.h	/^    __u64   IA32_MCi_MISC;$/;"	m	struct:mce_bank_msrs
+IA32_MCi_STATUS	mcelog.h	/^    __u64   IA32_MCi_STATUS;$/;"	m	struct:mce_bank_msrs
+INCLUDEDIR	Makefile	/^INCLUDEDIR= -I. -I..\/..\/jastlib$/;"	m
+INIT_LIST_HEAD	list.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+INSTR	cache.c	/^	enum { INSTR, DATA, UNIFIED } type; $/;"	e	enum:cache::__anon1	file:
+K8_MCELOG_THRESHOLD_DRAM_ECC	k8.h	8;"	d
+K8_MCELOG_THRESHOLD_FBDIMM	k8.h	11;"	d
+K8_MCELOG_THRESHOLD_L3_CACHE	k8.h	10;"	d
+K8_MCELOG_THRESHOLD_LINK	k8.h	9;"	d
+K8_MCE_THRESHOLD_BASE	k8.h	5;"	d
+K8_MCE_THRESHOLD_TOP	k8.h	6;"	d
+LEAKY_BUCKET_H	leaky-bucket.h	2;"	d
+LIST_HEAD	list.h	30;"	d
+LIST_HEAD_INIT	list.h	28;"	d
+LIST_POISON1	list.h	10;"	d
+LIST_POISON2	list.h	11;"	d
+LOG_DEV_FILENAME	paths.h	3;"	d
+LOG_FILE	paths.h	9;"	d
+LOOKUP	dmi.c	235;"	d	file:
+Lprintf	msg.c	/^void Lprintf(char *fmt, ...)$/;"	f
+MASK	bitfield.h	31;"	d
+MAX_ENV	memdb.c	/^	MAX_ENV = 20,$/;"	e	enum:__anon4	file:
+MAX_ENV	yellow.c	/^	MAX_ENV = 10,$/;"	e	enum:__anon6	file:
+MAX_POLLFD	eventloop.c	33;"	d	file:
+MCELOG_VERSION	version.h	1;"	d
+MCE_EXTENDED_BANK	mcelog.h	80;"	d
+MCE_GETCLEAR_FLAGS	mcelog.h	72;"	d
+MCE_GET_BANK_MSRs	mcelog.h	74;"	d
+MCE_GET_GLOBAL_CTRL_MSRs	mcelog.h	76;"	d
+MCE_GET_LOG_LEN	mcelog.h	71;"	d
+MCE_GET_RECORD_LEN	mcelog.h	70;"	d
+MCE_LOOP	mce_extern.h	25;"	d
+MCE_OVERFLOW	mcelog.h	68;"	d
+MCE_THERMAL_BANK	mcelog.h	82;"	d
+MCE_TIMEOUT_BANK	mcelog.h	83;"	d
+MCG_CMCI_P	mcelog.h	101;"	d
+MCG_SER_P	mcelog.h	103;"	d
+MCG_STATUS_EIPV	mcelog.h	98;"	d
+MCG_STATUS_MCIP	mcelog.h	99;"	d
+MCG_STATUS_RIPV	mcelog.h	97;"	d
+MCG_TES_P	mcelog.h	102;"	d
+MCI_STATUS_ADDRV	mcelog.h	92;"	d
+MCI_STATUS_AR	mcelog.h	95;"	d
+MCI_STATUS_EN	mcelog.h	90;"	d
+MCI_STATUS_MISCV	mcelog.h	91;"	d
+MCI_STATUS_OVER	mcelog.h	88;"	d
+MCI_STATUS_PCC	mcelog.h	93;"	d
+MCI_STATUS_S	mcelog.h	94;"	d
+MCI_STATUS_UC	mcelog.h	89;"	d
+MCI_STATUS_VAL	mcelog.h	87;"	d
+MCI_THRESHOLD_OVER	mcelog.h	85;"	d
+MEM_EXTERN_H	mce_extern.h	22;"	d
+MIN_CPUS	cache.c	42;"	d	file:
+MIN_INDEX	cache.c	43;"	d	file:
+NEEDGROUP	dbquery.c	12;"	d	file:
+NELE	mcelog.h	105;"	d
+NUMBER	bitfield.h	19;"	d
+NUMBERFORCE	bitfield.h	20;"	d
+NUMLEN	memdb.c	/^	NUMLEN  = 30,$/;"	e	enum:__anon4	file:
+O	dimm.c	57;"	d	file:
+O	memdb.c	66;"	d	file:
+OBJ	Makefile	/^OBJ := p4.o k8.o mcelog.o dmi.o tsc.o core2.o bitfield.o intel.o \\$/;"	m
+OFFLINE_ACCOUNT	page.c	/^	OFFLINE_ACCOUNT, $/;"	e	enum:otype	file:
+OFFLINE_HARD	page.c	/^	OFFLINE_HARD,$/;"	e	enum:otype	file:
+OFFLINE_OFF	page.c	/^	OFFLINE_OFF, $/;"	e	enum:otype	file:
+OFFLINE_SOFT	page.c	/^	OFFLINE_SOFT, $/;"	e	enum:otype	file:
+OFFLINE_SOFT_THEN_HARD	page.c	/^	OFFLINE_SOFT_THEN_HARD $/;"	e	enum:otype	file:
+O_ASCII	mcelog.c	/^	O_ASCII,$/;"	e	enum:options	file:
+O_CLIENT	mcelog.c	/^	O_CLIENT,$/;"	e	enum:options	file:
+O_COMMON	mcelog.h	/^	O_COMMON = 500,$/;"	e	enum:option_ranges
+O_CONFIG_FILE	mcelog.c	/^	O_CONFIG_FILE,$/;"	e	enum:options	file:
+O_CORE2	mcelog.c	/^	O_CORE2,$/;"	e	enum:options	file:
+O_CPU	mcelog.c	/^	O_CPU,$/;"	e	enum:options	file:
+O_CPUMHZ	mcelog.c	/^	O_CPUMHZ,$/;"	e	enum:options	file:
+O_DAEMON	mcelog.c	/^	O_DAEMON,$/;"	e	enum:options	file:
+O_DATABASE	diskdb.h	/^	O_DATABASE = O_DISKDB,$/;"	e	enum:diskdb_options
+O_DISKDB	mcelog.h	/^	O_DISKDB = 1000,$/;"	e	enum:option_ranges
+O_DMI	mcelog.c	/^	O_DMI,$/;"	e	enum:options	file:
+O_DMI_VERBOSE	mcelog.c	/^	O_DMI_VERBOSE,$/;"	e	enum:options	file:
+O_DROP_OLD_MEMORY	diskdb.h	/^	O_DROP_OLD_MEMORY,	$/;"	e	enum:diskdb_options
+O_DUMP_MEMORY	diskdb.h	/^	O_DUMP_MEMORY,$/;"	e	enum:diskdb_options
+O_ERROR_TRIGGER	diskdb.h	/^	O_ERROR_TRIGGER,$/;"	e	enum:diskdb_options
+O_FILE	mcelog.c	/^	O_FILE,$/;"	e	enum:options	file:
+O_FILTER	mcelog.c	/^	O_FILTER,$/;"	e	enum:options	file:
+O_FOREGROUND	mcelog.c	/^	O_FOREGROUND,$/;"	e	enum:options	file:
+O_GENERIC	mcelog.c	/^	O_GENERIC,$/;"	e	enum:options	file:
+O_INTEL_CPU	mcelog.c	/^	O_INTEL_CPU,$/;"	e	enum:options	file:
+O_K8	mcelog.c	/^	O_K8,$/;"	e	enum:options	file:
+O_LOGFILE	mcelog.c	/^	O_LOGFILE = O_COMMON, $/;"	e	enum:options	file:
+O_NO_DMI	mcelog.c	/^	O_NO_DMI,$/;"	e	enum:options	file:
+O_NO_SYSLOG	mcelog.c	/^	O_NO_SYSLOG,$/;"	e	enum:options	file:
+O_NUMERRORS	mcelog.c	/^	O_NUMERRORS,$/;"	e	enum:options	file:
+O_P4	mcelog.c	/^	O_P4,$/;"	e	enum:options	file:
+O_PIDFILE	mcelog.c	/^	O_PIDFILE,$/;"	e	enum:options	file:
+O_RAW	mcelog.c	/^	O_RAW,$/;"	e	enum:options	file:
+O_RESET_MEMORY	diskdb.h	/^	O_RESET_MEMORY,$/;"	e	enum:diskdb_options
+O_SYSLOG	mcelog.c	/^	O_SYSLOG,$/;"	e	enum:options	file:
+O_SYSLOG_ERROR	mcelog.c	/^	O_SYSLOG_ERROR,$/;"	e	enum:options	file:
+O_VERSION	mcelog.c	/^	O_VERSION,$/;"	e	enum:options	file:
+PAGE_OFFLINE	page.c	/^enum { PAGE_ONLINE = 0, PAGE_OFFLINE = 1, PAGE_OFFLINE_FAILED = 2 };$/;"	e	enum:__anon5	file:
+PAGE_OFFLINE_FAILED	page.c	/^enum { PAGE_ONLINE = 0, PAGE_OFFLINE = 1, PAGE_OFFLINE_FAILED = 2 };$/;"	e	enum:__anon5	file:
+PAGE_ONLINE	page.c	/^enum { PAGE_ONLINE = 0, PAGE_OFFLINE = 1, PAGE_OFFLINE_FAILED = 2 };$/;"	e	enum:__anon5	file:
+PAGE_SHIFT	page.c	41;"	d	file:
+PAGE_SIZE	page.c	42;"	d	file:
+PAIR	server.c	42;"	d	file:
+PID_FILE	paths.h	11;"	d
+PREFIX	cache.c	41;"	d	file:
+PREFIX	paths.h	1;"	d
+PRINTFLIKE	mcelog.h	117;"	d
+PRINTFLIKE	mcelog.h	120;"	d
+RB_BLACK	rbtree.h	108;"	d
+RB_CLEAR_NODE	rbtree.h	141;"	d
+RB_EMPTY_NODE	rbtree.h	140;"	d
+RB_EMPTY_ROOT	rbtree.h	139;"	d
+RB_RED	rbtree.h	107;"	d
+RB_ROOT	rbtree.h	136;"	d
+SBITFIELD	bitfield.h	17;"	d
+SHASH	config.c	45;"	d	file:
+SHASH	memdb.c	53;"	d	file:
+SOCKET_PATH	paths.h	7;"	d
+SRC	Makefile	/^SRC := $(OBJ:.o=.c)$/;"	m
+STATICTARGET	Makefile	/^STATICTARGET= mcelog_lib.o$/;"	m
+SYSERRprintf	msg.c	/^void SYSERRprintf(char *fmt, ...)$/;"	f
+SYSLOG_ALL	mcelog.h	/^	SYSLOG_ALL = SYSLOG_LOG|SYSLOG_REMARK|SYSLOG_ERROR,$/;"	e	enum:syslog_opt
+SYSLOG_ERROR	mcelog.h	/^	SYSLOG_ERROR  = (1 << 2),	\/* errors during operation to syslog *\/$/;"	e	enum:syslog_opt
+SYSLOG_FORCE	mcelog.h	/^	SYSLOG_FORCE = (1 << 3),$/;"	e	enum:syslog_opt
+SYSLOG_LOG	mcelog.h	/^	SYSLOG_LOG = (1 << 0),		\/* normal decoding output to syslog *\/$/;"	e	enum:syslog_opt
+SYSLOG_REMARK	mcelog.h	/^	SYSLOG_REMARK = (1 << 1), 	\/* special warnings to syslog *\/$/;"	e	enum:syslog_opt
+TLB_LL_MASK	p4.c	125;"	d	file:
+TLB_LL_SHIFT	p4.c	126;"	d	file:
+TLB_TT_MASK	p4.c	127;"	d	file:
+TLB_TT_SHIFT	p4.c	128;"	d	file:
+UNIFIED	cache.c	/^	enum { INSTR, DATA, UNIFIED } type; $/;"	e	enum:cache::__anon1	file:
+WARNINGS	Makefile	/^WARNINGS := -Wall -Wextra -Wno-missing-field-initializers -Wno-unused-parameter \\$/;"	m
+Wprintf	config.c	37;"	d	file:
+Wprintf	msg.c	/^int Wprintf(char *fmt, ...)$/;"	f
+X86_VENDOR_AMD	mcelog.h	61;"	d
+X86_VENDOR_CENTAUR	mcelog.h	63;"	d
+X86_VENDOR_CYRIX	mcelog.h	60;"	d
+X86_VENDOR_INTEL	mcelog.h	59;"	d
+X86_VENDOR_NSC	mcelog.h	65;"	d
+X86_VENDOR_NUM	mcelog.h	66;"	d
+X86_VENDOR_TRANSMETA	mcelog.h	64;"	d
+X86_VENDOR_UMC	mcelog.h	62;"	d
+_GNU_SOURCE	cache.c	18;"	d	file:
+_GNU_SOURCE	config.c	20;"	d	file:
+_GNU_SOURCE	db.c	28;"	d	file:
+_GNU_SOURCE	dbquery.c	2;"	d	file:
+_GNU_SOURCE	dmi.c	22;"	d	file:
+_GNU_SOURCE	eventloop.c	18;"	d	file:
+_GNU_SOURCE	leaky-bucket.c	18;"	d	file:
+_GNU_SOURCE	mcelog.c	20;"	d	file:
+_GNU_SOURCE	memdb.c	18;"	d	file:
+_GNU_SOURCE	memutil.c	18;"	d	file:
+_GNU_SOURCE	msg.c	1;"	d	file:
+_GNU_SOURCE	page.c	25;"	d	file:
+_GNU_SOURCE	server.c	20;"	d	file:
+_GNU_SOURCE	sysfs.c	18;"	d	file:
+_GNU_SOURCE	trigger.c	18;"	d	file:
+_GNU_SOURCE	tsc.c	17;"	d	file:
+_GNU_SOURCE	yellow.c	18;"	d	file:
+_LINUX_RBTREE_H	rbtree.h	96;"	d
+__bucket_account	leaky-bucket.c	/^int __bucket_account(const struct bucket_conf *c, struct leaky_bucket *b, $/;"	f
+__list_add	list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_del	list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__rb_erase_color	rbtree.c	/^static void __rb_erase_color(struct rb_node *node, struct rb_node *parent,$/;"	f	file:
+__rb_rotate_left	rbtree.c	/^static void __rb_rotate_left(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+__rb_rotate_right	rbtree.c	/^static void __rb_rotate_right(struct rb_node *node, struct rb_root *root)$/;"	f	file:
+__u16	mcelog.h	8;"	d
+__u32	mcelog.h	7;"	d
+__u64	mcelog.h	6;"	d
+__u8	mcelog.h	9;"	d
+acc	server.c	/^static struct config_cred acc = { .uid = 0, .gid = -1U };$/;"	v	typeref:struct:config_cred	file:
+access_check	server.c	/^static int access_check(int fd, struct msghdr *msg)$/;"	f	file:
+account_memdb	memdb.c	/^account_memdb(struct err_triggers *t, struct memdimm *md, struct mce *m)$/;"	f	file:
+account_over	memdb.c	/^account_over(struct err_triggers *t, struct memdimm *md, struct mce *m, unsigned corr_err_cnt)$/;"	f	file:
+account_page_error	page.c	/^void account_page_error(struct mce *m, int channel, int dimm)$/;"	f
+add_comment	db.c	/^void add_comment(struct database *db, struct group *group, char *comment)$/;"	f
+add_group	db.c	/^struct group *add_group(struct database *db, char *name, int *existed)$/;"	f
+addr	mcelog.h	/^	__u64 addr;$/;"	m	struct:mce
+addr	page.c	/^	u64 addr;$/;"	m	struct:mempage	file:
+agetime	leaky-bucket.h	/^	unsigned agetime;$/;"	m	struct:bucket_conf
+alloc_group	db.c	/^static struct group *alloc_group(char *name)$/;"	f	file:
+anchor	dmi.c	/^struct anchor { $/;"	s	file:
+apicid	mcelog.h	/^	__u32 apicid;	\/* CPU initial apic ID *\/$/;"	m	struct:mce
+argsleft	mcelog.c	/^void argsleft(int ac, char **av)$/;"	f
+array_handle	dmi.h	/^	unsigned short array_handle;$/;"	m	struct:dmi_memarray_addr
+array_handle	dmi.h	/^	unsigned short array_handle;$/;"	m	struct:dmi_memdev
+arstate	p4.c	/^static const char *arstate[4] = { $/;"	v	file:
+ascii_command	mcelog.c	/^static void ascii_command(int ac, char **av)$/;"	f	file:
+ascii_mode	mcelog.c	/^int ascii_mode;$/;"	v
+ask_server	client.c	/^void ask_server(char *command) $/;"	f
+asprintf	memutil.c	/^int asprintf(char **strp, const char *fmt, ...)$/;"	f
+asset_tag	dmi.h	/^	unsigned char asset_tag;$/;"	m	struct:dmi_memdev
+bank	mcelog.h	/^	__u8  bank;	\/* machine check bank *\/$/;"	m	struct:mce
+bank	mcelog.h	/^    int bank;$/;"	m	struct:mce_bank_msrs
+bank_locator	dmi.h	/^	unsigned char bank_locator;$/;"	m	struct:dmi_memdev
+bankname	mcelog.c	/^static char *bankname(unsigned bank) $/;"	f	file:
+bcdrev	dmi.c	/^	char bcdrev;$/;"	m	struct:anchor	file:
+bitmask	bitfield.c	/^static u64 bitmask(u64 i)$/;"	f	file:
+bucket	memdb.h	/^	struct leaky_bucket bucket;$/;"	m	struct:err_type	typeref:struct:err_type::leaky_bucket
+bucket_account	leaky-bucket.c	/^int bucket_account(const struct bucket_conf *c, struct leaky_bucket *b, $/;"	f
+bucket_age	leaky-bucket.c	/^static void bucket_age(const struct bucket_conf *c, struct leaky_bucket *b,$/;"	f	file:
+bucket_conf	leaky-bucket.h	/^struct bucket_conf {$/;"	s
+bucket_conf_init	leaky-bucket.c	/^int bucket_conf_init(struct bucket_conf *c, const char *rate)$/;"	f
+bucket_init	leaky-bucket.c	/^void bucket_init(struct leaky_bucket *b)$/;"	f
+bucket_output	leaky-bucket.c	/^char *bucket_output(const struct bucket_conf *c, struct leaky_bucket *b)$/;"	f
+bucket_time	leaky-bucket.c	/^time_t __attribute__((weak)) bucket_time(void)$/;"	f
+buf	mcelog.h	/^	char *buf;$/;"	m	struct:mcefd_data
+bus_queue_error_type	core2.c	/^static char *bus_queue_error_type[] = {$/;"	v	file:
+bus_queue_req_type	core2.c	/^static char *bus_queue_req_type[] = {$/;"	v	file:
+cache	cache.c	/^struct cache { $/;"	s	file:
+cache_to_cpus	cache.c	/^int cache_to_cpus(int cpu, unsigned level, unsigned type, $/;"	f
+cachelen	cache.c	/^static unsigned cachelen;$/;"	v	file:
+cachelevel	k8.c	/^static char *cachelevel[] = { $/;"	v	file:
+caches	cache.c	/^struct cache **caches;$/;"	v	typeref:struct:cache
+capacity	leaky-bucket.h	/^	unsigned capacity;$/;"	m	struct:bucket_conf
+cb	eventloop.c	/^	poll_cb_t cb;$/;"	m	struct:pollcb	file:
+ce	memdb.c	/^	struct err_type ce;$/;"	m	struct:memdimm	typeref:struct:memdimm::err_type	file:
+ce	page.c	/^	struct err_type ce;$/;"	m	struct:mempage	typeref:struct:mempage::err_type	file:
+ce_bucket_conf	memdb.c	/^	struct bucket_conf ce_bucket_conf;$/;"	m	struct:err_triggers	typeref:struct:err_triggers::bucket_conf	file:
+change_entry	db.c	/^void change_entry(struct database *db, struct group *g,$/;"	f
+change_entry_num	db.c	/^void change_entry_num(struct database *db, struct group *g,$/;"	f
+channel	memdb.c	/^	int channel;			\/* -1: unknown *\/$/;"	m	struct:memdimm	file:
+check_cpu	mcelog.c	/^void check_cpu(void)$/;"	f
+check_dimm_positions	dimm.c	/^void check_dimm_positions(void)$/;"	f
+check_entry	dmi.c	/^static int check_entry(struct dmi_entry *e, struct dmi_entry **next) $/;"	f	file:
+checkdimmdb	diskdb.c	/^static void checkdimmdb(void)$/;"	f	file:
+checkdmi	dmi.c	/^void checkdmi(void)$/;"	f
+checksum	dmi.c	/^static unsigned checksum(unsigned char *s, int len)$/;"	f	file:
+child	trigger.c	/^	pid_t child;$/;"	m	struct:child	file:
+child	trigger.c	/^struct child {$/;"	s	file:
+child_handler	trigger.c	/^static void child_handler(int sig, siginfo_t *si, void *ctx)$/;"	f	file:
+children_max	trigger.c	/^static int children_max = 4;$/;"	v	file:
+cleanline	db.c	/^static char *cleanline(char *s)$/;"	f	file:
+client_accept	server.c	/^static void client_accept(struct pollfd *pfd, void *data)$/;"	f	file:
+client_command	mcelog.c	/^static void client_command(int ac, char **av)$/;"	f	file:
+client_event	server.c	/^static void client_event(struct pollfd *pfd, void *data)$/;"	f	file:
+client_input	server.c	/^static int client_input(int fd, struct clientcon *cc)$/;"	f	file:
+client_path	server.c	/^static char *client_path = SOCKET_PATH;$/;"	v	file:
+clientcon	server.c	/^struct clientcon { $/;"	s	file:
+clone_group	db.c	/^clone_group(struct database *db, struct group *gold, char *newname)$/;"	f
+close_db	db.c	/^int close_db(struct database *db)$/;"	f
+close_dimm_db	dimm.c	/^void close_dimm_db(void)$/;"	f
+closedmi	dmi.c	/^void closedmi(void)$/;"	f
+closeonexec	eventloop.c	/^static int closeonexec(int fd)$/;"	f	file:
+cmp	dimm.c	/^	int cmp;$/;"	m	struct:key	file:
+cmp_arr_range	dmi.c	/^static int cmp_arr_range(const void *a, const void *b)$/;"	f	file:
+cmp_dimm	dimm.c	/^static int cmp_dimm(struct dmi_memdev *a, struct group *b)$/;"	f	file:
+cmp_dimm	memdb.c	/^static int cmp_dimm(const void *a, const void *b)$/;"	f	file:
+cmp_range	dmi.c	/^static int cmp_range(const void *a, const void *b)$/;"	f	file:
+collect_dmi_dimms	dmi.c	/^static void collect_dmi_dimms(void)$/;"	f	file:
+combined_modifier	mcelog.c	/^static int combined_modifier(int opt)$/;"	f	file:
+comment	db.c	/^	char *comment;$/;"	m	struct:group	file:
+config_bool	config.c	/^int config_bool(const char *header, const char *name)$/;"	f
+config_choice	config.c	/^int config_choice(const char *header, const char *name, const struct config_choice *c)$/;"	f
+config_choice	config.h	/^struct config_choice {$/;"	s
+config_cred	config.c	/^void config_cred(char *header, char *base, struct config_cred *cred)$/;"	f
+config_cred	config.h	/^struct config_cred {$/;"	s
+config_file	config.c	/^const char *config_file(char **av, const char *deffn)$/;"	f
+config_number	config.c	/^int config_number(const char *header, const char *name, char *fmt, void *val)$/;"	f
+config_options	config.c	/^void config_options(struct option *opts, int (*func)(int))$/;"	f
+config_string	config.c	/^char *config_string(const char *header, const char *name)$/;"	f
+config_trigger	config.c	/^int config_trigger(const char *header, const char *base, struct bucket_conf *bc)$/;"	f
+container_of	list.h	20;"	d
+container_of	rbtree.h	100;"	d
+core2_decode_model	core2.c	/^void core2_decode_model(u64 status)$/;"	f
+core2_status	core2.c	/^static struct field core2_status[] = {$/;"	v	typeref:struct:field	file:
+corr_numbers	tulsa.c	/^static struct numfield corr_numbers[] = { $/;"	v	typeref:struct:numfield	file:
+count	leaky-bucket.h	/^	unsigned count;$/;"	m	struct:leaky_bucket
+count	memdb.h	/^	unsigned long count;$/;"	m	struct:err_type
+cpu	mcelog.h	/^	__u8  cpu;	\/* cpu number; obsolete; use extcpu now *\/$/;"	m	struct:mce
+cpu_choices	mcelog.c	/^static struct config_choice cpu_choices[] = {$/;"	v	typeref:struct:config_choice	file:
+cpu_forced	mcelog.c	/^int cpu_forced;$/;"	v
+cpufreq_mhz	tsc.c	/^static double cpufreq_mhz(int cpu, double infomhz)$/;"	f	file:
+cpuid	mcelog.h	/^	__u32 cpuid;	\/* CPUID 1 EAX *\/$/;"	m	struct:mce
+cpuid1	mcelog.c	/^struct cpuid1 {$/;"	s	file:
+cpulist	yellow.c	/^static char *cpulist(char *prefix, unsigned *cpumask, unsigned cpumasklen)$/;"	f	file:
+cpumap	cache.c	/^	unsigned *cpumap;$/;"	m	struct:cache	file:
+cpumap_len	cache.c	/^static unsigned cpumap_len(char *s)$/;"	f	file:
+cpumaplen	cache.c	/^	unsigned cpumaplen;$/;"	m	struct:cache	file:
+cpumhz	mcelog.c	/^static double cpumhz;$/;"	v	file:
+cpumhz_forced	mcelog.c	/^static int cpumhz_forced;$/;"	v	file:
+cputype	mcelog.c	/^enum cputype cputype = CPU_GENERIC;	$/;"	v	typeref:enum:cputype
+cputype	mcelog.h	/^enum cputype {$/;"	g
+cputype_name	mcelog.c	/^static char *cputype_name[] = {$/;"	v	file:
+cpuvendor	mcelog.h	/^	__u8  cpuvendor;	\/* cpu vendor as encoded in system.h *\/$/;"	m	struct:mce
+cpuvendor_name	mcelog.c	/^static char *cpuvendor_name(u32 cpuvendor)$/;"	f	file:
+create_dimm_name	dimm.c	/^void create_dimm_name(struct dmi_memdev *d, char *buf)$/;"	f
+cs	mcelog.h	/^	__u8  cs;		\/* code segment *\/$/;"	m	struct:mce
+csum	dmi.c	/^	char csum;$/;"	m	struct:anchor	file:
+csum2	dmi.c	/^	char csum2;$/;"	m	struct:anchor	file:
+d_string	dimm.c	/^static char *d_string(struct dmi_memdev *d, struct key *k, char *buf)$/;"	f	file:
+d_to_group	dimm.c	/^static void d_to_group(struct dmi_memdev *de, struct group *g)$/;"	f	file:
+daemon_mode	mcelog.c	/^int daemon_mode;$/;"	v
+data	eventloop.c	/^	void *data;$/;"	m	struct:pollcb	file:
+data_width	dmi.h	/^	unsigned short data_width;$/;"	m	struct:dmi_memdev
+database	db.c	/^struct database {$/;"	s	file:
+decode_bitfield	bitfield.c	/^void decode_bitfield(u64 status, struct field *fields)$/;"	f
+decode_intel_mc	p4.c	/^void decode_intel_mc(struct mce *log, int cputype, int *ismemerr, unsigned size)$/;"	f
+decode_k8_bu_mc	k8.c	/^static void decode_k8_bu_mc(u64 status, int *err)$/;"	f	file:
+decode_k8_dc_mc	k8.c	/^static void decode_k8_dc_mc(u64 status, int *err)$/;"	f	file:
+decode_k8_fr_mc	k8.c	/^static void decode_k8_fr_mc(u64 status, int *err)$/;"	f	file:
+decode_k8_generic_errcode	k8.c	/^static void decode_k8_generic_errcode(u64 status)$/;"	f	file:
+decode_k8_ic_mc	k8.c	/^static void decode_k8_ic_mc(u64 status, int *err)$/;"	f	file:
+decode_k8_ls_mc	k8.c	/^static void decode_k8_ls_mc(u64 status, int *err)$/;"	f	file:
+decode_k8_mc	k8.c	/^void decode_k8_mc(struct mce *mce, int *ismemerr)$/;"	f
+decode_k8_nb_mc	k8.c	/^static void decode_k8_nb_mc(u64 status, int *memerr)$/;"	f	file:
+decode_k8_threshold	k8.c	/^static void decode_k8_threshold(u64 misc)$/;"	f	file:
+decode_mca	p4.c	/^static void decode_mca(__u32 mca, u64 track, int cpu, int *ismemerr, int socket)$/;"	f	file:
+decode_mcg	p4.c	/^static void decode_mcg(__u64 mcgstatus)$/;"	f	file:
+decode_mci	p4.c	/^static void decode_mci(__u64 status, int cpu, unsigned mcgcap, int *ismemerr,$/;"	f	file:
+decode_memory_controller	nehalem.c	/^void decode_memory_controller(u32 status)$/;"	f
+decode_numfield	bitfield.c	/^void decode_numfield(u64 status, struct numfield *fields)$/;"	f
+decode_thermal	p4.c	/^static void decode_thermal(struct mce *log, int cpu)$/;"	f	file:
+decode_tracking	p4.c	/^static void decode_tracking(u64 track)$/;"	f	file:
+decode_tsc_current	tsc.c	/^int decode_tsc_current(char **buf, int cpunum, enum cputype cputype, double mhz, $/;"	f
+decode_tsc_forced	tsc.c	/^int decode_tsc_forced(char **buf, double mhz, u64 tsc)$/;"	f
+decodefatal	mcelog.c	/^static void decodefatal(FILE *inf)$/;"	f	file:
+decoder_t	k8.c	/^typedef void (*decoder_t)(u64, int *ismemerr); $/;"	t	file:
+decoders	k8.c	/^static decoder_t decoders[] = { $/;"	v	file:
+deep_sleep_states	tsc.c	/^static int deep_sleep_states(int cpu)$/;"	f	file:
+delete_entry	db.c	/^void delete_entry(struct database *db, struct group *g, char *entry)$/;"	f
+delete_group	db.c	/^int delete_group(struct database *db, struct group *group)$/;"	f
+dev_handle	dmi.h	/^	unsigned short dev_handle;$/;"	m	struct:dmi_memdev_addr
+device_locator	dmi.h	/^	unsigned char device_locator;$/;"	m	struct:dmi_memdev
+device_set	dmi.h	/^	unsigned char device_set;$/;"	m	struct:dmi_memdev
+dimm	memdb.c	/^	int dimm;			\/* -1: unknown *\/$/;"	m	struct:memdimm	file:
+dimm_common	diskdb.c	/^static void dimm_common(int ac, char **av)$/;"	f	file:
+dimm_db	dimm.c	/^struct database *dimm_db;$/;"	v	typeref:struct:database
+dimm_db_fn	diskdb.c	/^char *dimm_db_fn = DIMM_DB_FILENAME;$/;"	v
+dimmhash	memdb.c	/^static unsigned dimmhash(unsigned socket, int dimm, unsigned ch)$/;"	f	file:
+dimms	memdb.c	/^static struct err_triggers dimms = { .type = "DIMM" };$/;"	v	typeref:struct:err_triggers	file:
+dirty	db.c	/^	int dirty;$/;"	m	struct:database	file:
+disable_leftover_dimms	dimm.c	/^static void disable_leftover_dimms(void)$/;"	f	file:
+disclaimer	mcelog.c	/^static void disclaimer(void)$/;"	f	file:
+diskdb_cmd	diskdb.c	/^int diskdb_cmd(int opt, int ac, char **av)$/;"	f
+diskdb_cmd	diskdb.h	/^static inline int diskdb_cmd(int opt, int ac, char **av) { return 0; }$/;"	f
+diskdb_modifier	diskdb.c	/^int diskdb_modifier(int opt)$/;"	f
+diskdb_modifier	diskdb.h	/^static inline int diskdb_modifier(int opt) { return 0; }$/;"	f
+diskdb_options	diskdb.h	/^enum diskdb_options { $/;"	g
+diskdb_resolve_addr	diskdb.c	/^void diskdb_resolve_addr(u64 addr)$/;"	f
+diskdb_resolve_addr	diskdb.h	/^static inline void diskdb_resolve_addr(u64 addr) {}$/;"	f
+diskdb_usage	diskdb.c	/^void diskdb_usage(void)$/;"	f
+diskdb_usage	diskdb.h	/^static inline void diskdb_usage(void) {}$/;"	f
+dispatch_commands	server.c	/^static void dispatch_commands(char *line, FILE *fh)$/;"	f	file:
+dispatch_dump	server.c	/^static void dispatch_dump(FILE *fh, char *s)$/;"	f	file:
+dispatch_pages	server.c	/^static void dispatch_pages(FILE *fh)$/;"	f	file:
+dmi_array_ranges	dmi.c	/^struct dmi_memarray_addr **dmi_array_ranges; $/;"	v	typeref:struct:dmi_memarray_addr
+dmi_arrays	dmi.c	/^struct dmi_memarray **dmi_arrays;$/;"	v	typeref:struct:dmi_memarray
+dmi_collect	dmi.c	/^dmi_collect(int type, int minsize, int *len)$/;"	f	file:
+dmi_decodeaddr	dmi.c	/^void dmi_decodeaddr(unsigned long addr)$/;"	f
+dmi_dimm_size	dmi.c	/^unsigned dmi_dimm_size(unsigned short size, char *unit)$/;"	f
+dmi_dimms	dmi.c	/^struct dmi_memdev **dmi_dimms; $/;"	v	typeref:struct:dmi_memdev
+dmi_entry	dmi.h	/^struct dmi_entry { $/;"	s
+dmi_find_addr	dmi.c	/^struct dmi_memdev **dmi_find_addr(unsigned long addr)$/;"	f
+dmi_forced	dmi.c	/^int dmi_forced;$/;"	v
+dmi_getstring	dmi.c	/^char *dmi_getstring(struct dmi_entry *e, unsigned number)$/;"	f
+dmi_length	dmi.c	/^static int dmi_length;$/;"	v	file:
+dmi_memarray	dmi.h	/^struct dmi_memarray {$/;"	s
+dmi_memarray_addr	dmi.h	/^struct dmi_memarray_addr {$/;"	s
+dmi_memdev	dmi.h	/^struct dmi_memdev {$/;"	s
+dmi_memdev_addr	dmi.h	/^struct dmi_memdev_addr {$/;"	s
+dmi_ranges	dmi.c	/^struct dmi_memdev_addr **dmi_ranges; $/;"	v	typeref:struct:dmi_memdev_addr
+dmi_sanity_check	dmi.c	/^int dmi_sanity_check(void)$/;"	f
+dmi_set_verbosity	dmi.c	/^void dmi_set_verbosity(int v)$/;"	f
+dnt_cecc	dunnington.c	/^struct field dnt_cecc[] = {$/;"	v	typeref:struct:field
+dnt_front_error	dunnington.c	/^static char *dnt_front_error[0xf] = {$/;"	v	file:
+dnt_front_status	dunnington.c	/^struct field dnt_front_status[] = {$/;"	v	typeref:struct:field
+dnt_int_error	dunnington.c	/^static char *dnt_int_error[0xf] = {$/;"	v	file:
+dnt_int_status	dunnington.c	/^struct field dnt_int_status[] = {$/;"	v	typeref:struct:field
+dnt_uecc	dunnington.c	/^struct field dnt_uecc[] = {$/;"	v	typeref:struct:field
+do_dmi	dmi.c	/^int do_dmi;$/;"	v
+do_mce_check	mcelog.c	/^int do_mce_check(int flag, int exitonerror, int *msr_errors, int *record_errors)$/;"	f
+do_memory_offline	page.c	/^static int do_memory_offline(u64 addr, enum otype type)$/;"	f	file:
+drop_cred	mcelog.c	/^static void drop_cred(void)$/;"	f	file:
+dump_all_dimms	dimm.c	/^void dump_all_dimms(void)$/;"	f
+dump_bios	memdb.c	/^static void dump_bios(struct memdimm *md, FILE *f)$/;"	f	file:
+dump_database	db.c	/^void dump_database(struct database *db, FILE *out)$/;"	f
+dump_dimm	dimm.c	/^void dump_dimm(char *locator)$/;"	f
+dump_dimm	memdb.c	/^static void dump_dimm(struct memdimm *md, FILE *f, enum printflags flags)$/;"	f	file:
+dump_errtype	memdb.c	/^static void dump_errtype(char *name, struct err_type *e, FILE *f, enum printflags flags,$/;"	f	file:
+dump_group	db.c	/^void dump_group(struct group *g, FILE *out)$/;"	f
+dump_mce	mcelog.c	/^static void dump_mce(struct mce *m, unsigned recordlen) $/;"	f	file:
+dump_mce_final	mcelog.c	/^static void dump_mce_final(struct mce *m, char *symbol, int missing, int recordlen, $/;"	f	file:
+dump_mce_raw_ascii	mcelog.c	/^static void dump_mce_raw_ascii(struct mce *m, unsigned recordlen)$/;"	f	file:
+dump_memdev	dmi.c	/^static void dump_memdev(struct dmi_memdev *md, unsigned long addr)$/;"	f	file:
+dump_memory_errors	memdb.c	/^void dump_memory_errors(FILE *f, enum printflags flags)$/;"	f
+dump_page_errors	page.c	/^void dump_page_errors(FILE *f)$/;"	f
+dump_ranges	dmi.c	/^dump_ranges(struct dmi_memdev_addr **ranges, struct dmi_memdev **dmi_dimms)$/;"	f	file:
+dump_raw_ascii	mcelog.c	/^int dump_raw_ascii;$/;"	v
+dump_type_details	dmi.c	/^static void dump_type_details(unsigned short td)$/;"	f	file:
+dunnington_bus_status	dunnington.c	/^static struct field dunnington_bus_status[] = {$/;"	v	typeref:struct:field	file:
+dunnington_decode_bus	dunnington.c	/^static void dunnington_decode_bus(u64 status)$/;"	f	file:
+dunnington_decode_internal	dunnington.c	/^static void dunnington_decode_internal(u64 status)$/;"	f	file:
+dunnington_decode_model	dunnington.c	/^void dunnington_decode_model(u64 status)$/;"	f
+ecc_numbers	tulsa.c	/^static struct numfield ecc_numbers[] = { $/;"	v	typeref:struct:numfield	file:
+empty	config.c	/^static int empty(char *s)$/;"	f	file:
+end	bitfield.h	/^	unsigned start, end;$/;"	m	struct:numfield
+end_addr	dmi.h	/^	unsigned end_addr;$/;"	m	struct:dmi_memdev_addr
+end_addr	dmi.h	/^	unsigned int end_addr;$/;"	m	struct:dmi_memarray_addr
+endof_field	mcelog.h	108;"	d
+entries	db.c	/^	struct entry *entries;$/;"	m	struct:group	typeref:struct:group::entry	file:
+entries	dmi.c	/^static struct dmi_entry *entries;$/;"	v	typeref:struct:dmi_entry	file:
+entrieslen	dmi.c	/^static int entrieslen;$/;"	v	file:
+entry	db.c	/^struct entry { $/;"	s	file:
+entry_length	dmi.c	/^	char entry_length;$/;"	m	struct:anchor	file:
+entry_num	db.c	/^unsigned long entry_num(struct group *g, char *entry)$/;"	f
+entry_val	db.c	/^char *entry_val(struct group *g, char *entry)$/;"	f
+err	mcelog.h	106;"	d
+err_triggers	memdb.c	/^struct err_triggers {$/;"	s	file:
+err_type	memdb.h	/^struct err_type {$/;"	s
+error_correction	dmi.h	/^	unsigned char error_correction;$/;"	m	struct:dmi_memarray
+error_handle	dmi.h	/^	unsigned short error_handle;$/;"	m	struct:dmi_memarray
+error_thresh	diskdb.c	/^unsigned error_thresh = 20;$/;"	v
+error_trigger	diskdb.c	/^char *error_trigger;$/;"	v
+event_signal	eventloop.c	/^int event_signal(int sig)$/;"	f
+event_sigs	eventloop.c	/^static sigset_t event_sigs;$/;"	v	file:
+eventloop	eventloop.c	/^void eventloop(void)$/;"	f
+excess	leaky-bucket.h	/^	unsigned excess;$/;"	m	struct:leaky_bucket
+ext_family	mcelog.c	/^	unsigned ext_family : 8; $/;"	m	struct:cpuid1	file:
+ext_model	mcelog.c	/^	unsigned ext_model : 4;$/;"	m	struct:cpuid1	file:
+extcpu	mcelog.h	/^	__u32 extcpu;	\/* linux cpu number that detected the error *\/$/;"	m	struct:mce
+extended_bankname	mcelog.c	/^static char *extended_bankname(unsigned bank) $/;"	f	file:
+family	mcelog.c	/^	unsigned family : 4;$/;"	m	struct:cpuid1	file:
+fd	eventloop.c	/^	int fd;$/;"	m	struct:pollcb	file:
+fh	db.c	/^	FILE *fh;$/;"	m	struct:database	file:
+field	bitfield.h	/^struct field {$/;"	s
+fill_handles	dmi.c	/^static void fill_handles(void)$/;"	f	file:
+filter_bogus	mcelog.c	/^int filter_bogus = 1;$/;"	v
+filter_memory_errors	mcelog.c	/^int filter_memory_errors;$/;"	v
+find_entry	db.c	/^struct group *find_entry(struct database *db, struct group *prev,$/;"	f
+find_group	db.c	/^struct group *find_group(struct database *db, char *name)$/;"	f
+finish_child	trigger.c	/^static void finish_child(pid_t child, int status)$/;"	f	file:
+finished	mcelog.h	/^	__u8  finished;   \/* entry is valid *\/$/;"	m	struct:mce
+first_group	db.c	/^struct group *first_group(struct database *db)$/;"	f
+flush_dir	db.c	/^static int flush_dir(char *fn)$/;"	f	file:
+flushlog	msg.c	/^void flushlog(void)$/;"	f
+fmt	bitfield.h	/^	char *fmt;$/;"	m	struct:numfield
+fmt	dmi.c	/^	char fmt[5];$/;"	m	struct:anchor	file:
+fmt_size	dimm.c	/^static void fmt_size(struct dmi_memdev *a, char *buf)$/;"	f	file:
+fmt_tsc	tsc.c	/^static int fmt_tsc(char **buf, u64 tsc, double mhz)$/;"	f	file:
+fn	db.c	/^	char *fn;$/;"	m	struct:database	file:
+force	bitfield.h	/^	int force;$/;"	m	struct:numfield
+force_rename	db.c	/^static int force_rename(char *a, char *b)$/;"	f	file:
+foreground	mcelog.c	/^static int foreground;$/;"	v	file:
+form_factor	dmi.h	/^	unsigned char form_factor;$/;"	m	struct:dmi_memdev
+form_factors	dmi.c	/^static char *form_factors[] = { $/;"	v	file:
+format_location	memdb.c	/^static char *format_location(struct memdimm *md)$/;"	f	file:
+free_cc	server.c	/^static void free_cc(struct clientcon *cc)$/;"	f	file:
+free_data	db.c	/^static void free_data(struct database *db)$/;"	f	file:
+free_group	db.c	/^static void free_group(struct group *g)$/;"	f	file:
+free_inbuf	server.c	/^static void free_inbuf(struct clientcon *cc)$/;"	f	file:
+free_outbuf	server.c	/^static void free_outbuf(struct clientcon *cc)$/;"	f	file:
+gc_dimms	dimm.c	/^void gc_dimms(void)$/;"	f
+general_setup	mcelog.c	/^static void general_setup(void)$/;"	f	file:
+get_II_str	p4.c	/^static char* get_II_str(__u8 i)$/;"	f	file:
+get_LL_str	p4.c	/^static char* get_LL_str(__u8 ll)$/;"	f	file:
+get_PP_str	p4.c	/^static char* get_PP_str(__u8 pp)$/;"	f	file:
+get_RRRR_str	p4.c	/^static char* get_RRRR_str(__u8 rrrr)$/;"	f	file:
+get_TT_str	p4.c	/^static char* get_TT_str(__u8 t)$/;"	f	file:
+get_T_str	p4.c	/^static char* get_T_str(__u8 t)$/;"	f	file:
+get_memdimm	memdb.c	/^struct memdimm *get_memdimm(int socketid, int channel, int dimm)$/;"	f
+gid	config.h	/^	gid_t gid;$/;"	m	struct:config_cred
+global_record_errors	mcelog.c	/^int global_record_errors = 0;$/;"	v
+group	db.c	/^struct group {$/;"	s	file:
+group_name	db.c	/^char *group_name(struct group *g)$/;"	f
+groups	db.c	/^	struct group *groups;$/;"	m	struct:database	typeref:struct:database::group	file:
+handle	dmi.h	/^	unsigned short handle;$/;"	m	struct:dmi_entry
+handle_sigusr1	mcelog.c	/^static void handle_sigusr1(int sig)$/;"	f	file:
+handle_to_entry	dmi.c	/^static struct dmi_entry **handle_to_entry;$/;"	v	typeref:struct:dmi_entry	file:
+hash	config.c	/^static unsigned hash(const char *str)$/;"	f	file:
+header	config.c	/^struct header { $/;"	s	file:
+header	dmi.h	/^	struct dmi_entry header;$/;"	m	struct:dmi_memarray	typeref:struct:dmi_memarray::dmi_entry
+header	dmi.h	/^	struct dmi_entry header;$/;"	m	struct:dmi_memarray_addr	typeref:struct:dmi_memarray_addr::dmi_entry
+header	dmi.h	/^	struct dmi_entry header;$/;"	m	struct:dmi_memdev	typeref:struct:dmi_memdev::dmi_entry
+header	dmi.h	/^	struct dmi_entry header;$/;"	m	struct:dmi_memdev_addr	typeref:struct:dmi_memdev_addr::dmi_entry
+highbits	k8.c	/^static char *highbits[32] = { $/;"	v	file:
+hlist	config.c	/^static struct header *hlist;$/;"	v	typeref:struct:header	file:
+ignore_nodev	mcelog.c	/^int ignore_nodev;$/;"	v
+inbuf	server.c	/^	char *inbuf;	\/* 0 terminated *\/$/;"	m	struct:clientcon	file:
+inc_val	dimm.c	/^static unsigned long inc_val(struct group *g, char *entry)$/;"	f	file:
+initial_ping_timeout	server.c	/^static int initial_ping_timeout = 2;$/;"	v	file:
+inptr	server.c	/^	char *inptr;$/;"	m	struct:clientcon	file:
+inputfile	mcelog.c	/^static char *inputfile;$/;"	v	file:
+intel_bank_name	p4.c	/^char *intel_bank_name(int num)$/;"	f
+intel_cpu_init	intel.c	/^void intel_cpu_init(enum cputype cpu)$/;"	f
+intel_memory_error	intel.c	/^static int intel_memory_error(struct mce *m, unsigned recordlen)$/;"	f	file:
+interleave_depth	dmi.h	/^	unsigned char interleave_depth;$/;"	m	struct:dmi_memdev_addr
+interleave_pos	dmi.h	/^	unsigned char interleave_pos;$/;"	m	struct:dmi_memdev_addr
+internal_error_numbers	nehalem.c	/^static struct numfield internal_error_numbers[] = { $/;"	v	typeref:struct:numfield	file:
+internal_error_status	nehalem.c	/^static struct field internal_error_status[] = {$/;"	v	typeref:struct:field	file:
+internal_errors	nehalem.c	/^static char *internal_errors[] = {$/;"	v	file:
+ip	mcelog.h	/^	__u64 ip;$/;"	m	struct:mce
+is_intel_cpu	intel.c	/^int is_intel_cpu(int cpu)$/;"	f
+is_intel_cpu	tsc.c	/^int is_intel_cpu(int cpu) { return 1; }$/;"	f
+k8_bank_name	k8.c	/^char *k8_bank_name(unsigned num)$/;"	f
+k8bank	k8.c	/^static char *k8bank[] = {$/;"	v	file:
+k8threshold	k8.c	/^static char *k8threshold[] = {$/;"	v	file:
+kernel_offline	page.c	/^static const char *kernel_offline[] = { $/;"	v	file:
+key	dimm.c	/^struct key {$/;"	s	file:
+key_sizes	dimm.c	/^static unsigned key_sizes[] = {$/;"	v	file:
+keys	dimm.c	/^static struct key keys[] = {$/;"	v	typeref:struct:key	file:
+leaky_bucket	leaky-bucket.h	/^struct leaky_bucket {$/;"	s
+length	dmi.c	/^	short length;$/;"	m	struct:anchor	file:
+length	dmi.h	/^	unsigned char length;$/;"	m	struct:dmi_entry
+level	cache.c	/^	unsigned level;$/;"	m	struct:cache	file:
+list_add	list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_del	list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_empty	list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_entry	list.h	129;"	d
+list_first_entry	list.h	140;"	d
+list_for_each	list.h	148;"	d
+list_for_each_entry	list.h	189;"	d
+list_for_each_entry_reverse	list.h	201;"	d
+list_for_each_entry_safe	list.h	213;"	d
+list_for_each_prev	list.h	157;"	d
+list_for_each_prev_safe	list.h	178;"	d
+list_for_each_safe	list.h	167;"	d
+list_head	list.h	/^struct list_head {$/;"	s
+list_is_last	list.h	/^static inline int list_is_last(const struct list_head *list,$/;"	f
+location	dmi.h	/^	unsigned char location;$/;"	m	struct:dmi_memarray
+location	memdb.c	/^	char *location;$/;"	m	struct:memdimm	file:
+log	leaky-bucket.h	/^	unsigned char log;$/;"	m	struct:bucket_conf
+logfile	mcelog.c	/^static char *logfile;$/;"	v	file:
+logfile_default	mcelog.c	/^static char logfile_default[] = LOG_FILE;$/;"	v	file:
+logfn	mcelog.c	/^char *logfn = LOG_DEV_FILENAME; $/;"	v
+loglen	mcelog.h	/^	unsigned loglen;$/;"	m	struct:mcefd_data
+lookup_cputype	mcelog.c	/^static enum cputype lookup_cputype(char *name)$/;"	f	file:
+lookup_dimm	dimm.c	/^struct group *lookup_dimm(char *locator)$/;"	f
+main	cache.c	/^main()$/;"	f
+main	config.c	/^int main(int ac, char **av)$/;"	f
+main	dbquery.c	/^int main(int ac, char **av)$/;"	f
+main	tsc.c	/^int main(void)$/;"	f
+major	dmi.c	/^	char major;$/;"	m	struct:anchor	file:
+manufacturer	dmi.h	/^	unsigned char manufacturer;$/;"	m	struct:dmi_memdev
+map	sysfs.h	/^struct map { $/;"	s
+match_arg	config.c	/^static char *match_arg(char **av, char *arg)$/;"	f	file:
+matching_dimm_dmi	dimm.c	/^static struct group *matching_dimm_dmi(struct dmi_memdev *d)$/;"	f	file:
+matching_dimm_group	dimm.c	/^static struct dmi_memdev *matching_dimm_group(struct group *g)$/;"	f	file:
+max_pollfd	eventloop.c	/^static int max_pollfd;$/;"	v	file:
+maximum_capacity	dmi.h	/^	unsigned int maximum_capacity;$/;"	m	struct:dmi_memarray
+maxlength	dmi.c	/^	short maxlength;$/;"	m	struct:anchor	file:
+mce	mcelog.h	/^struct mce {$/;"	s
+mce_bank_msrs	mcelog.h	/^struct mce_bank_msrs {$/;"	s
+mce_cpuid	mcelog.c	/^static void mce_cpuid(struct mce *m)$/;"	f	file:
+mce_filter	mcelog.c	/^static int mce_filter(struct mce *m, unsigned recordlen)$/;"	f	file:
+mce_filter_intel	intel.c	/^int mce_filter_intel(struct mce *m, unsigned recordlen)$/;"	f
+mce_filter_k8	k8.c	/^int mce_filter_k8(struct mce *m)$/;"	f
+mce_global_ctrl_msrs	mcelog.h	/^struct mce_global_ctrl_msrs {$/;"	s
+mce_prepare	mcelog.c	/^static void mce_prepare(struct mce *m)$/;"	f	file:
+mcefd_data	mcelog.h	/^struct mcefd_data {$/;"	s
+mcelog_fork	trigger.c	/^pid_t mcelog_fork(const char *name)$/;"	f
+mcgcap	mcelog.h	/^	__u64 mcgcap;	\/* MCGCAP MSR: machine check capabilities of CPU *\/$/;"	m	struct:mce
+mcgstatus	mcelog.h	/^	__u64 mcgstatus;$/;"	m	struct:mce
+md_dimms	memdb.c	/^static struct memdimm *md_dimms[SHASH];$/;"	v	typeref:struct:memdimm	file:
+md_numdimms	memdb.c	/^static int md_numdimms;$/;"	v	file:
+memarray_handle	dmi.h	/^	unsigned short memarray_handle;$/;"	m	struct:dmi_memdev_addr
+memdb_config	memdb.c	/^void memdb_config(void)$/;"	f
+memdb_enabled	memdb.c	/^static int memdb_enabled;$/;"	v	file:
+memdb_trigger	memdb.c	/^void memdb_trigger(char *msg, struct memdimm *md,  time_t t,$/;"	f
+memdev	memdb.c	/^	struct dmi_memdev *memdev;$/;"	m	struct:memdimm	typeref:struct:memdimm::dmi_memdev	file:
+memdimm	memdb.c	/^struct memdimm {$/;"	s	file:
+memerr_handle	dmi.h	/^	unsigned short memerr_handle;$/;"	m	struct:dmi_memdev
+memory_error	memdb.c	/^void memory_error(struct mce *m, int ch, int dimm, unsigned corr_err_cnt, $/;"	f
+memory_error_support	intel.c	/^int memory_error_support;$/;"	v
+memory_offline	page.c	/^static int memory_offline(u64 addr)$/;"	f	file:
+memory_type	dmi.h	/^	unsigned char memory_type;$/;"	m	struct:dmi_memdev
+memory_types	dmi.c	/^static char *memory_types[] = {$/;"	v	file:
+memoryio	k8.c	/^static char *memoryio[] = { $/;"	v	file:
+mempage	page.c	/^struct mempage { $/;"	s	file:
+mempage_insert	page.c	/^static struct mempage *mempage_insert(u64 addr, struct mempage *mp)$/;"	f	file:
+mempage_insert_lookup	page.c	/^mempage_insert_lookup(u64 addr, struct rb_node * node)$/;"	f	file:
+mempage_lookup	page.c	/^static struct mempage *mempage_lookup(u64 addr)$/;"	f	file:
+mempage_root	page.c	/^static struct rb_root mempage_root;$/;"	v	typeref:struct:rb_root	file:
+memtrans	k8.c	/^static char *memtrans[] = { $/;"	v	file:
+minor	dmi.c	/^	char minor;$/;"	m	struct:anchor	file:
+misc	mcelog.h	/^	__u64 misc;$/;"	m	struct:mce
+mmm_desc	nehalem.c	/^static char *mmm_desc[] = { $/;"	v	file:
+mmm_mnemonic	nehalem.c	/^static char *mmm_mnemonic[] = { $/;"	v	file:
+model	mcelog.c	/^	unsigned model : 4;$/;"	m	struct:cpuid1	file:
+modifier	mcelog.c	/^static int modifier(int opt)$/;"	f	file:
+modifier_finish	mcelog.c	/^static void modifier_finish(void)$/;"	f	file:
+more_cpus	cache.c	/^static void more_cpus(int cpu)$/;"	f	file:
+move_dimm	dimm.c	/^void move_dimm(struct group *g, struct dmi_memdev *newpos, char *loc)$/;"	f
+name	bitfield.h	/^	char *name;$/;"	m	struct:numfield
+name	config.c	/^	char *name;$/;"	m	struct:header	file:
+name	config.c	/^	char *name;$/;"	m	struct:opt	file:
+name	config.h	/^	char *name;$/;"	m	struct:config_choice
+name	db.c	/^	char *name;$/;"	m	struct:entry	file:
+name	db.c	/^	char *name;$/;"	m	struct:group	file:
+name	dimm.c	/^	char *name;$/;"	m	struct:key	file:
+name	memdb.c	/^	char *name;$/;"	m	struct:memdimm	file:
+name	sysfs.h	/^	char *name;$/;"	m	struct:map
+name	trigger.c	/^	const char *name;$/;"	m	struct:child	file:
+nbextendederr	k8.c	/^static char *nbextendederr[] = { $/;"	v	file:
+nd	page.c	/^	struct rb_node nd;$/;"	m	struct:mempage	typeref:struct:mempage::rb_node	file:
+nd	trigger.c	/^	struct list_head nd;$/;"	m	struct:child	typeref:struct:child::list_head	file:
+need_stdout	msg.c	/^int need_stdout(void)$/;"	f
+nehalem_decode_model	nehalem.c	/^void nehalem_decode_model(u64 status, u64 misc)$/;"	f
+nehalem_memerr_misc	nehalem.c	/^void nehalem_memerr_misc(struct mce *m, int *channel, int *dimm)$/;"	f
+new_dimm	dimm.c	/^void new_dimm(struct dmi_memdev *d, char *loc)$/;"	f
+new_error	dimm.c	/^void new_error(unsigned long addr, unsigned long max_error, char *trigger)$/;"	f
+new_header	config.c	/^static struct header *new_header(struct header *prevh, char *name)$/;"	f	file:
+next	config.c	/^	struct header *next;$/;"	m	struct:header	typeref:struct:header::header	file:
+next	config.c	/^	struct opt *next;$/;"	m	struct:opt	typeref:struct:opt::opt	file:
+next	db.c	/^	struct group *next;$/;"	m	struct:group	typeref:struct:group::group	file:
+next	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	memdb.c	/^	struct memdimm *next;$/;"	m	struct:memdimm	typeref:struct:memdimm::memdimm	file:
+next_group	db.c	/^struct group *next_group(struct group *g)$/;"	f
+nhm_memory_misc_numbers	nehalem.c	/^static struct numfield nhm_memory_misc_numbers[] = {$/;"	v	typeref:struct:numfield	file:
+nhm_memory_status	nehalem.c	/^static struct field nhm_memory_status[] = {$/;"	v	typeref:struct:field	file:
+nhm_memory_status_numbers	nehalem.c	/^static struct numfield nhm_memory_status_numbers[] = {$/;"	v	typeref:struct:numfield	file:
+no_syslog	mcelog.c	/^void no_syslog(void)$/;"	f
+noargs	mcelog.c	/^static void noargs(int ac, char **av)$/;"	f	file:
+noreturn	mcelog.h	118;"	d
+noreturn	mcelog.h	121;"	d
+nothing	config.c	/^static void nothing(char *s, int line)$/;"	f	file:
+num_children	trigger.c	/^static int num_children;$/;"	v	file:
+num_devices	dmi.h	/^	short num_devices;$/;"	m	struct:dmi_memarray
+number	memdb.c	/^static char *number(char *buf, long num)$/;"	f	file:
+numentries	db.c	/^	int numentries;$/;"	m	struct:group	file:
+numentries	dmi.c	/^	unsigned short numentries;$/;"	m	struct:anchor	file:
+numentries	dmi.c	/^static int numentries;$/;"	v	file:
+numerrors	mcelog.c	/^static int numerrors;$/;"	v	file:
+numfield	bitfield.h	/^struct numfield { $/;"	s
+offline	page.c	/^static enum otype offline = OFFLINE_OFF;$/;"	v	typeref:enum:otype	file:
+offline_action	page.c	/^static void offline_action(struct mempage *mp, u64 addr)$/;"	f	file:
+offline_choice	page.c	/^static struct config_choice offline_choice[] = {$/;"	v	typeref:struct:config_choice	file:
+offlined	page.c	/^	char offlined;$/;"	m	struct:mempage	file:
+offset	dimm.c	/^	size_t offset;$/;"	m	struct:key	file:
+open_db	db.c	/^struct database *open_db(char *fn, int wr)$/;"	f
+open_dimm_db	dimm.c	/^int open_dimm_db(char *fn)$/;"	f
+open_file	db.c	/^static FILE *open_file(char *fn, int wr)$/;"	f	file:
+open_logfile	msg.c	/^int open_logfile(char *fn)$/;"	f
+opendmi	dmi.c	/^int opendmi(void)$/;"	f
+opensyslog	msg.c	/^static void opensyslog(void)$/;"	f	file:
+opt	config.c	/^struct opt { $/;"	s	file:
+option_ranges	mcelog.h	/^enum option_ranges {$/;"	g
+options	mcelog.c	/^enum options { $/;"	g	file:
+options	mcelog.c	/^static struct option options[] = {$/;"	v	typeref:struct:option	file:
+opts	config.c	/^	struct opt *opts[SHASH];$/;"	m	struct:header	typeref:struct:header::opt	file:
+optslast	config.c	/^	struct opt *optslast[SHASH];$/;"	m	struct:header	typeref:struct:header::opt	file:
+otype	page.c	/^enum otype { $/;"	g	file:
+outbuf	server.c	/^	char *outbuf;$/;"	m	struct:clientcon	file:
+outcur	server.c	/^	size_t outcur;$/;"	m	struct:clientcon	file:
+outlen	server.c	/^	size_t outlen;$/;"	m	struct:clientcon	file:
+output_fh	msg.c	/^static FILE *output_fh;$/;"	v	file:
+output_fn	msg.c	/^static char *output_fn;$/;"	v	file:
+p4_decode_model	p4.c	/^static void p4_decode_model(__u32 model)$/;"	f	file:
+p6_shared_status	core2.c	/^static struct field p6_shared_status[] = { $/;"	v	typeref:struct:field	file:
+p6old_decode_model	core2.c	/^void p6old_decode_model(u64 status)$/;"	f
+p6old_status	core2.c	/^static struct field p6old_status[] = { $/;"	v	typeref:struct:field	file:
+p6old_status_numbers	core2.c	/^static struct numfield p6old_status_numbers[] = { $/;"	v	typeref:struct:numfield	file:
+pad1	mcelog.h	/^	__u8  pad1;$/;"	m	struct:mce
+pad2	mcelog.h	/^	__u16 pad2;$/;"	m	struct:mce
+page_setup	page.c	/^void page_setup(void)$/;"	f
+page_state	page.c	/^static const char *page_state[] = {$/;"	v	file:
+page_trigger_conf	page.c	/^static struct bucket_conf page_trigger_conf;$/;"	v	typeref:struct:bucket_conf	file:
+parse_config	mcelog.c	/^static void parse_config(char **av)$/;"	f	file:
+parse_config_file	config.c	/^int parse_config_file(const char *fn)$/;"	f
+parse_cpuid	mcelog.c	/^static void parse_cpuid(u32 cpuid, u32 *family, u32 *model)$/;"	f	file:
+parse_cpumap	cache.c	/^static void parse_cpumap(char *map, unsigned *buf, unsigned len)$/;"	f	file:
+parse_dimm_addr	memdb.c	/^parse_dimm_addr(char *bl, unsigned *socketid, unsigned *channel, unsigned *dimm)$/;"	f	file:
+parse_error	config.c	/^static void noreturn parse_error(int line, char *msg)$/;"	f	file:
+parse_rate	leaky-bucket.c	/^static int parse_rate(const char *rate, struct bucket_conf *c)$/;"	f	file:
+part_number	dmi.h	/^	unsigned char part_number;	$/;"	m	struct:dmi_memdev
+partition_width	dmi.h	/^	unsigned partition_width;$/;"	m	struct:dmi_memarray_addr
+partproc	k8.c	/^static char *partproc[] = { $/;"	v	file:
+pcu_1	sandy-bridge.c	/^static char *pcu_1[] = {$/;"	v	file:
+pcu_2	sandy-bridge.c	/^static char *pcu_2[] = { $/;"	v	file:
+pcu_mc4	sandy-bridge.c	/^static struct field pcu_mc4[] = { $/;"	v	typeref:struct:field	file:
+pidfile	mcelog.c	/^static char *pidfile = pidfile_default;$/;"	v	file:
+pidfile_default	mcelog.c	/^static char pidfile_default[] = PID_FILE;$/;"	v	file:
+ping_timeout	server.c	/^static void ping_timeout(int sig)$/;"	f	file:
+ping_timeout_ctx	server.c	/^static sigjmp_buf ping_timeout_ctx;$/;"	v	file:
+poll_callbacks	eventloop.c	/^static void poll_callbacks(int n)$/;"	f	file:
+poll_cb_t	eventloop.h	/^typedef void (*poll_cb_t)(struct pollfd *pfd, void *data);$/;"	t
+poll_loop	eventloop.c	/^int poll_loop(int exitonerror)$/;"	f
+pollcb	eventloop.c	/^struct pollcb { $/;"	s	file:
+pollcbs	eventloop.c	/^static struct pollcb pollcbs[MAX_POLLFD];	$/;"	v	typeref:struct:pollcb	file:
+pollfds	eventloop.c	/^static struct pollfd pollfds[MAX_POLLFD];$/;"	v	typeref:struct:pollfd	file:
+ppoll_fallback	eventloop.c	/^static int ppoll_fallback(struct pollfd *pfd, nfds_t nfds, $/;"	f	file:
+ppoll_vec	eventloop.c	/^static int (*ppoll_vec)(struct pollfd *, nfds_t, const struct timespec$/;"	v	file:
+prefill_memdb	memdb.c	/^void prefill_memdb(void)$/;"	f
+prev	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+print_cputypes	mcelog.c	/^static void print_cputypes(void)$/;"	f	file:
+print_tsc	mcelog.c	/^static void print_tsc(int cpunum, __u64 tsc, unsigned long time) $/;"	f	file:
+printflags	memdb.h	/^enum printflags {$/;"	g
+process	mcelog.c	/^int process(int fd, unsigned recordlen, unsigned loglen, char *buf)$/;"	f
+process_cmd	server.c	/^static void process_cmd(struct clientcon *cc)$/;"	f	file:
+process_mcefd	mcelog.c	/^static void process_mcefd(struct pollfd *pfd, void *data)$/;"	f	file:
+processor_flags	mcelog.c	/^char *processor_flags;$/;"	v
+processor_flags	tsc.c	/^char *processor_flags = "nonstop_tsc";$/;"	v
+qpi_misc	nehalem.c	/^static struct field qpi_misc[] = {$/;"	v	typeref:struct:field	file:
+qpi_numbers	nehalem.c	/^static struct numfield qpi_numbers[] = {$/;"	v	typeref:struct:numfield	file:
+qpi_status	nehalem.c	/^static struct field qpi_status[] = {$/;"	v	typeref:struct:field	file:
+rb_color	rbtree.h	121;"	d
+rb_entry	rbtree.h	137;"	d
+rb_erase	rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_first	rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f
+rb_insert_color	rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_is_black	rbtree.h	123;"	d
+rb_is_red	rbtree.h	122;"	d
+rb_last	rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f
+rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_link_node	rbtree.h	/^static inline void rb_link_node(struct rb_node * node, struct rb_node * parent,$/;"	f
+rb_next	rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f
+rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	rbtree.h	/^struct rb_node$/;"	s
+rb_parent	rbtree.h	120;"	d
+rb_parent_color	rbtree.h	/^	unsigned long  rb_parent_color;$/;"	m	struct:rb_node
+rb_prev	rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f
+rb_replace_node	rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	rbtree.h	/^struct rb_root$/;"	s
+rb_set_black	rbtree.h	125;"	d
+rb_set_color	rbtree.h	/^static inline void rb_set_color(struct rb_node *rb, int color)$/;"	f
+rb_set_parent	rbtree.h	/^static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f
+rb_set_red	rbtree.h	124;"	d
+rdtscll	tsc.c	/^static inline u64 rdtscll(void)$/;"	f	file:
+read_caches	cache.c	/^static int read_caches(void)$/;"	f	file:
+read_cpu_map	cache.c	/^static void read_cpu_map(struct cache *c, char *cfn)$/;"	f	file:
+read_db	db.c	/^static int read_db(struct database *db)$/;"	f	file:
+read_field	sysfs.c	/^char *read_field(char *base, char *name)$/;"	f
+read_field_map	sysfs.c	/^unsigned read_field_map(char *base, char *name, struct map *map)$/;"	f
+read_field_num	sysfs.c	/^unsigned read_field_num(char *base, char *name)$/;"	f
+recordlen	mcelog.h	/^	unsigned recordlen;$/;"	m	struct:mcefd_data
+register_pollcb	eventloop.c	/^int register_pollcb(int fd, int events, poll_cb_t cb, void *data)$/;"	f
+remove_dimm	dimm.c	/^static void remove_dimm(struct group *g)$/;"	f	file:
+remove_pidfile	mcelog.c	/^static void remove_pidfile(void)$/;"	f	file:
+rename_group	db.c	/^void rename_group(struct database *db, struct group *g, char *newname)$/;"	f
+reopenlog	msg.c	/^void reopenlog(void)$/;"	f
+res1	mcelog.c	/^	unsigned res1 : 2;$/;"	m	struct:cpuid1	file:
+res2	mcelog.c	/^	unsigned res2 : 4;$/;"	m	struct:cpuid1	file:
+reserved_1bit	bitfield.c	/^char *reserved_1bit[2];$/;"	v
+reserved_2bits	bitfield.c	/^char *reserved_2bits[4];$/;"	v
+reserved_3bits	bitfield.c	/^char *reserved_3bits[8];$/;"	v
+reset_dimm	dimm.c	/^void reset_dimm(char *locator)$/;"	f
+resolveaddr	mcelog.c	/^static void resolveaddr(unsigned long addr)$/;"	f	file:
+rev	dmi.c	/^	char rev;$/;"	m	struct:anchor	file:
+rewrite_db	db.c	/^static int rewrite_db(struct database *db)$/;"	f	file:
+round_down	mcelog.h	111;"	d
+round_up	mcelog.h	110;"	d
+row	dmi.h	/^	unsigned char row;	$/;"	m	struct:dmi_memdev_addr
+run_trigger	dimm.c	/^static void run_trigger(char *trigger, char *loc, unsigned long val,$/;"	f	file:
+run_trigger	trigger.c	/^void run_trigger(char *trigger, char *argv[], char **env)$/;"	f
+run_yellow_trigger	yellow.c	/^void run_yellow_trigger(int cpu, int tnum, int lnum, char *ts, char *ls, int socket)$/;"	f
+runcred	mcelog.c	/^static struct config_cred runcred = { .uid = -1U, .gid = -1U };$/;"	v	typeref:struct:config_cred	file:
+save_comment	db.c	/^static char *save_comment(char *c)$/;"	f	file:
+scale	tsc.c	/^static unsigned scale(u64 *tsc, unsigned unit, double mhz)$/;"	f	file:
+select_intel_cputype	intel.c	/^enum cputype select_intel_cputype(int family, int model)$/;"	f
+sendstring	server.c	/^static void sendstring(int fd, char *str)$/;"	f	file:
+serial_number	dmi.h	/^	unsigned char serial_number;$/;"	m	struct:dmi_memdev
+server_config	server.c	/^static void server_config(void)$/;"	f	file:
+server_ping	server.c	/^static int server_ping(struct sockaddr_un *un)$/;"	f	file:
+server_setup	server.c	/^void server_setup(void)$/;"	f
+setup_cpuid	mcelog.c	/^static enum cputype setup_cpuid(u32 cpuvendor, u32 cpuid)$/;"	f	file:
+setup_pidfile	mcelog.c	/^static void setup_pidfile(char *s)$/;"	f	file:
+signal_exit	mcelog.c	/^static void signal_exit(int sig)$/;"	f	file:
+signal_int_exit	mcelog.c	/^static void signal_int_exit(int sig)$/;"	f	file:
+size	dmi.h	/^	unsigned short size;$/;"	m	struct:dmi_memdev
+sizeof_field	mcelog.h	107;"	d
+skipgunk	mcelog.c	/^static char *skipgunk(char *s)$/;"	f	file:
+skipspace	mcelog.c	/^static char *skipspace(char *s)$/;"	f	file:
+snb_decode_model	sandy-bridge.c	/^void snb_decode_model(int cputype, int bank, u64 status, u64 misc)$/;"	f
+sockdb_enabled	memdb.c	/^static int sockdb_enabled;$/;"	v	file:
+socketid	mcelog.h	/^	__u32 socketid;	\/* CPU socket ID *\/$/;"	m	struct:mce
+socketid	memdb.c	/^	int socketid;$/;"	m	struct:memdimm	file:
+sockets	memdb.c	/^static struct err_triggers sockets = { .type = "Socket" };$/;"	v	typeref:struct:err_triggers	file:
+speed	dmi.h	/^	unsigned short speed;$/;"	m	struct:dmi_memdev
+start	bitfield.h	/^	unsigned start, end;$/;"	m	struct:numfield
+start_addr	dmi.h	/^	unsigned int start_addr;$/;"	m	struct:dmi_memarray_addr
+start_addr	dmi.h	/^	unsigned start_addr;$/;"	m	struct:dmi_memdev_addr
+start_bit	bitfield.h	/^	unsigned start_bit;$/;"	m	struct:field
+status	mcelog.h	/^	__u64 status;$/;"	m	struct:mce
+stepping	mcelog.c	/^	unsigned stepping : 4;$/;"	m	struct:cpuid1	file:
+str	bitfield.h	/^	char **str;$/;"	m	struct:field
+str	dmi.c	/^	char str[4];	\/* _SM_ *\/$/;"	m	struct:anchor	file:
+str2	dmi.c	/^	char str2[5]; \/* _DMI_ *\/$/;"	m	struct:anchor	file:
+stringlen	bitfield.h	/^	unsigned stringlen;$/;"	m	struct:field
+strstrip	config.c	/^static char *strstrip(char *s)$/;"	f	file:
+sync_db	db.c	/^int sync_db(struct database *db)$/;"	f
+sync_dimms	dimm.c	/^int sync_dimms(void)$/;"	f
+sysfs_available	sysfs.c	/^int sysfs_available(const char *name, int flags)$/;"	f
+sysfs_write	sysfs.c	/^int sysfs_write(const char *name, const char *fmt, ...)$/;"	f
+syslog_level	msg.c	/^int syslog_level = LOG_WARNING;$/;"	v
+syslog_opt	mcelog.h	/^enum syslog_opt { $/;"	g
+syslog_opt	msg.c	/^enum syslog_opt syslog_opt = SYSLOG_REMARK;$/;"	v	typeref:enum:syslog_opt
+table	dmi.c	/^	unsigned table;$/;"	m	struct:anchor	file:
+test_bit	yellow.c	32;"	d	file:
+test_prefix	p4.c	/^static inline int test_prefix(int nr, __u32 value)$/;"	f	file:
+time	mcelog.h	/^	__u64 time;	\/* wall time_t when error was detected *\/$/;"	m	struct:mce
+timeconv	leaky-bucket.c	/^static int timeconv(char unit, int *out)$/;"	f	file:
+timeout	k8.c	/^static char *timeout[] = { $/;"	v	file:
+timestamp	dimm.c	/^static char *timestamp(void)$/;"	f	file:
+tls_bus_status	tulsa.c	/^static struct field tls_bus_status[] = {$/;"	v	typeref:struct:field	file:
+tls_cecc	tulsa.c	/^struct field tls_cecc[] = {$/;"	v	typeref:struct:field
+tls_front_error	tulsa.c	/^static char *tls_front_error[0xf] = {$/;"	v	file:
+tls_front_status	tulsa.c	/^struct field tls_front_status[] = {$/;"	v	typeref:struct:field
+tls_int_error	tulsa.c	/^static char *tls_int_error[0xf] = {$/;"	v	file:
+tls_int_status	tulsa.c	/^struct field tls_int_status[] = {$/;"	v	typeref:struct:field
+tls_uecc	tulsa.c	/^struct field tls_uecc[] = {$/;"	v	typeref:struct:field
+total_width	dmi.h	/^	unsigned short total_width;$/;"	m	struct:dmi_memdev
+transaction	k8.c	/^static char *transaction[] = { $/;"	v	file:
+trigger	leaky-bucket.h	/^	char *trigger;$/;"	m	struct:bucket_conf
+trigger_check	trigger.c	/^int trigger_check(char *s)$/;"	f
+trigger_dir	trigger.c	/^static char *trigger_dir;$/;"	v	file:
+trigger_setup	trigger.c	/^void trigger_setup(void)$/;"	f
+trigger_wait	trigger.c	/^void trigger_wait(void)$/;"	f
+triggered	page.c	/^	char triggered;$/;"	m	struct:mempage	file:
+tsc	mcelog.h	/^	__u64 tsc;	\/* cpu time stamp counter *\/$/;"	m	struct:mce
+tsc_reliable	tsc.c	/^static int tsc_reliable(int cputype, int cpunum)$/;"	f	file:
+tstamp	leaky-bucket.h	/^	time_t   tstamp;$/;"	m	struct:leaky_bucket
+tulsa_decode_bus	tulsa.c	/^static void tulsa_decode_bus(u64 status)$/;"	f	file:
+tulsa_decode_internal	tulsa.c	/^static void tulsa_decode_internal(u64 status)$/;"	f	file:
+tulsa_decode_model	tulsa.c	/^void tulsa_decode_model(u64 status, u64 misc)$/;"	f
+tunit	leaky-bucket.h	/^	unsigned char tunit;	\/* 'd','h','m','s' *\/$/;"	m	struct:bucket_conf
+type	cache.c	/^	enum { INSTR, DATA, UNIFIED } type; $/;"	m	struct:cache	typeref:enum:cache::__anon1	file:
+type	dimm.c	/^	enum { D_STR, D_BYTE, D_WORD, D_SIZE } type;$/;"	m	struct:key	typeref:enum:key::__anon2	file:
+type	dmi.h	/^	unsigned char type;$/;"	m	struct:dmi_entry
+type	mcelog.c	/^	unsigned type : 2;$/;"	m	struct:cpuid1	file:
+type	memdb.c	/^	char *type;$/;"	m	struct:err_triggers	file:
+type_details	dmi.c	/^static char *type_details[16] = {$/;"	v	file:
+type_details	dmi.h	/^	unsigned short type_details;$/;"	m	struct:dmi_memdev
+type_map	cache.c	/^static struct map type_map[] = {$/;"	v	typeref:struct:map	file:
+u16	mcelog.h	/^typedef unsigned short u16;$/;"	t
+u32	mcelog.h	/^typedef unsigned int u32;$/;"	t
+u64	mcelog.h	/^typedef unsigned long long u64;$/;"	t
+u8	mcelog.h	/^typedef unsigned char u8;$/;"	t
+uc	memdb.c	/^	struct err_type uc;$/;"	m	struct:memdimm	typeref:struct:memdimm::err_type	file:
+uc_bucket_conf	memdb.c	/^	struct bucket_conf uc_bucket_conf;$/;"	m	struct:err_triggers	typeref:struct:err_triggers::bucket_conf	file:
+uid	config.h	/^	uid_t uid;$/;"	m	struct:config_cred
+unique_warning	dimm.c	/^static void unique_warning(void)$/;"	f	file:
+unparseable	config.c	/^static void unparseable(char *desc, const char *header, const char *name)$/;"	f	file:
+unregister_pollcb	eventloop.c	/^void unregister_pollcb(struct pollfd *pfd)$/;"	f
+usage	dbquery.c	/^void usage(void)$/;"	f
+usage	mcelog.c	/^void usage(void)$/;"	f
+use	dmi.h	/^	unsigned char use;$/;"	m	struct:dmi_memarray
+val	config.c	/^	char *val;$/;"	m	struct:opt	file:
+val	config.h	/^	int val;$/;"	m	struct:config_choice
+val	db.c	/^	char *val;$/;"	m	struct:entry	file:
+value	sysfs.h	/^	int value;$/;"	m	struct:map
+verbose	dmi.c	/^static int verbose = 0;$/;"	v	file:
+vlinesyslog	msg.c	/^static int vlinesyslog(char *fmt, va_list ap)$/;"	f	file:
+warnuser	dmi.c	/^static void warnuser(void)$/;"	f	file:
+write_pidfile	mcelog.c	/^static void write_pidfile(void)$/;"	f	file:
+xalloc	config.c	38;"	d	file:
+xalloc	memutil.c	/^void *xalloc(size_t size)$/;"	f
+xalloc_nonzero	memutil.c	/^void *xalloc_nonzero(size_t size)$/;"	f
+xeon75xx_decode_dimm	xeon75xx.c	/^void xeon75xx_decode_dimm(struct mce *m, unsigned msize)$/;"	f
+xeon75xx_decode_model	nehalem.c	/^void xeon75xx_decode_model(struct mce *m, unsigned msize)$/;"	f
+xeon75xx_memory_error	xeon75xx.c	/^xeon75xx_memory_error(struct mce *m, unsigned msize, int *channel, int *dimm)$/;"	f
+xrealloc	memutil.c	/^void *xrealloc(void *old, size_t size)$/;"	f
+xstrdup	memutil.c	/^char *xstrdup(char *str)$/;"	f
+yellow_log	yellow.c	/^static int yellow_log = 1;$/;"	v	file:
+yellow_setup	yellow.c	/^void yellow_setup(void)$/;"	f
+yellow_trigger	yellow.c	/^static char *yellow_trigger;$/;"	v	file:

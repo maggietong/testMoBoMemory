@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/sw/att/!svn/ver/115/trunk/testMoBoMemory
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sw/att/!svn/ver/115/trunk/testMoBoMemory/ChangeLog
+END
+copying
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/copying
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/Makefile
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/sw/att/!svn/ver/56/trunk/testMoBoMemory/readme
+END

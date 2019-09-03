@@ -1,0 +1,36 @@
+p4.o: p4.c mcelog.h p4.h core2.h nehalem.h dunnington.h tulsa.h intel.h \
+ yellow.h sandy-bridge.h
+k8.o: k8.c mcelog.h k8.h
+mcelog.o: mcelog.c mcelog.h paths.h k8.h intel.h p4.h dmi.h dimm.h tsc.h \
+ version.h config.h diskdb.h memutil.h eventloop.h memdb.h leaky-bucket.h \
+ server.h trigger.h client.h msg.h yellow.h page.h mce_extern.h
+dmi.o: dmi.c mcelog.h dmi.h memutil.h
+tsc.o: tsc.c mcelog.h tsc.h intel.h
+core2.o: core2.c mcelog.h core2.h bitfield.h
+bitfield.o: bitfield.c mcelog.h bitfield.h
+intel.o: intel.c mcelog.h intel.h bitfield.h nehalem.h memdb.h \
+ leaky-bucket.h page.h xeon75xx.h
+nehalem.o: nehalem.c mcelog.h nehalem.h bitfield.h memdb.h leaky-bucket.h \
+ xeon75xx.h
+dunnington.o: dunnington.c mcelog.h bitfield.h dunnington.h
+tulsa.o: tulsa.c mcelog.h bitfield.h tulsa.h
+config.o: config.c memutil.h mcelog.h config.h leaky-bucket.h trigger.h
+memutil.o: memutil.c mcelog.h memutil.h
+msg.o: msg.c mcelog.h msg.h memutil.h
+eventloop.o: eventloop.c mcelog.h eventloop.h
+leaky-bucket.o: leaky-bucket.c leaky-bucket.h
+memdb.o: memdb.c mcelog.h memutil.h config.h dmi.h memdb.h leaky-bucket.h \
+ trigger.h intel.h page.h
+server.o: server.c mcelog.h server.h eventloop.h config.h memdb.h \
+ leaky-bucket.h memutil.h paths.h page.h
+trigger.o: trigger.c trigger.h eventloop.h list.h mcelog.h memutil.h \
+ config.h
+client.o: client.c mcelog.h client.h paths.h config.h
+cache.o: cache.c mcelog.h memutil.h sysfs.h cache.h
+sysfs.o: sysfs.c mcelog.h sysfs.h memutil.h
+yellow.o: yellow.c memutil.h mcelog.h config.h trigger.h yellow.h cache.h
+page.o: page.c memutil.h mcelog.h rbtree.h leaky-bucket.h page.h config.h \
+ memdb.h sysfs.h
+rbtree.o: rbtree.c rbtree.h
+xeon75xx.o: xeon75xx.c mcelog.h xeon75xx.h
+sandy-bridge.o: sandy-bridge.c mcelog.h bitfield.h sandy-bridge.h

@@ -1,0 +1,54 @@
+8
+
+dir
+326
+http://10.190.240.250/svn/sw/att/trunk/testMoBoMemory/driver/kmod/include
+http://10.190.240.250/svn/sw/att
+
+
+
+2012-11-08T22:57:23.447003Z
+9
+jackie
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf58ce1d-9c4c-46b1-804d-100ce70e1453
+
+abs_diagdev_ctl_i.h
+file
+
+
+
+
+2012-11-14T02:26:31.116599Z
+d0c6e022c1459bb69086fb88531eae6c
+2012-11-08T22:57:23.447003Z
+9
+jackie
+has-props
+
+addrmap_ctl_i.h
+file
+
+
+
+
+2012-11-14T02:26:31.116599Z
+58acb1c95ee40f3836f75fcae49ed187
+2012-11-08T22:57:23.447003Z
+9
+jackie
+has-props
+

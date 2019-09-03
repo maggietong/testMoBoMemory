@@ -1,0 +1,50 @@
+#############################################################################################################
+#\file Makefile
+# 
+# Makefile 
+#
+#\author Maggie Tong
+#
+# Copyright(c) 2009 Jabil Circuit.
+#
+# This source code and any compilation or derivative thereof is the sole property of 
+# Jabil Circuit and is provided pursuant to a Software License Agreement. This code 
+# is the proprietary information of Jabil Circuit and is confidential in nature. 
+# It's use and dissemination by any party other than Jabil Circuit is strictly 
+# limited by the confidential information provisions of Software License Agreement 
+# referenced above.
+#
+# \version
+# Nov. 15, 2009    The initial created version
+##########################################################################################################
+
+CC= gcc
+AR= ar
+
+CFLAGS= 
+DFLAGS= -g -Wall -rdynamic -fPIC
+
+SHARE= -shared	
+#DEBUG= -D__DEBUG__
+COMLIB=
+INTLLIBS += -lpthread
+SOURCE= absdiag_dev.c cpu_info.c sys_i.c memory.c memory_err.c test.c cache_walking.c cache_stuck.c cache_rdwr.c cache_randdata.c cache_randaddr.c cache_spill.c
+OBJ= $(SOURCE:.c=.o)
+OBJS= ../jastlib/jedi_comm.o ../jastlib/log.o #../memlib/vir2phy/vir2phy.o
+INCLUDEDIR+= -I. -I../memlib/include -I../jastlib
+TARGET= libMEMORY.so
+STATICTARGET= mem.o
+
+.c.o:
+	$(CC) $(CFLAGS) $(DFLAGS) $(DEBUG) $(INCLUDEDIR)  -c $<
+
+$(TARGET):$(OBJ)
+	$(CC) $(CFLAGS)$(DFLAGS) $(DEBUG) $(SHARE) $(INCLUDEDIR) -o $@ $(OBJS) $(INTLLIBS)
+	$(AR) rcs $(STATICTARGET) $(OBJ) $(OBJS)
+
+install:
+
+uninstall:
+
+clean:
+	rm -f *.o $(TARGET)

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/socket
+END
+socket-1.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/socket/socket-1.conf
+END
+socket-2.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/socket/socket-2.conf
+END
+inject
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/socket/inject
+END
+socket-memdb.conf
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/socket/socket-memdb.conf
+END

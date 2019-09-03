@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page
+END
+page-soft-then-hard.conf
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page/page-soft-then-hard.conf
+END
+page-memdb.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page/page-memdb.conf
+END
+page-off.conf
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page/page-off.conf
+END
+page-soft.conf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page/page-soft.conf
+END
+page-account.conf
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page/page-account.conf
+END
+inject
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page/inject
+END
+page-hard.conf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/tests/page/page-hard.conf
+END

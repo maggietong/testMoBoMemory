@@ -1,0 +1,23 @@
+CC= gcc
+CFLAGS= -Werror -g -fPIC
+
+LIBPATH=
+INTLLIBS += -lpthread
+VERSION= .0
+ 
+	
+SOURCE= absdiag_dev.c cpu_info.c sys_i.c memory.c memory_err.c test.c cache_walking.c cache_stuck.c cache_rdwr.c cache_randdata.c cache_randaddr.c cache_spill.c
+OBJ= $(SOURCE:.c=.o)
+	
+TARGET= testMem 
+
+INCLUDEDIR += -I.
+
+.c.o:
+	$(CC) -c $(CFLAGS)  $(INCLUDEDIR) $<
+
+$(TARGET):$(OBJ)
+	$(CC) $(CFLAGS)  $(INCLUDEDIR) -o $@ $^ $(INTLLIBS)
+
+clean:
+	rm *.o

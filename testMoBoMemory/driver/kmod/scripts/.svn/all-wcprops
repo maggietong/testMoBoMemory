@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/driver/kmod/scripts
+END
+install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/driver/kmod/scripts/install.sh
+END
+uninstall.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/driver/kmod/scripts/uninstall.sh
+END

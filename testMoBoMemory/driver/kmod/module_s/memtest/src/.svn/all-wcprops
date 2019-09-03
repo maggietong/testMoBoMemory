@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sw/att/!svn/ver/56/trunk/testMoBoMemory/driver/kmod/module_s/memtest/src
+END
+MemoryModule.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/sw/att/!svn/ver/56/trunk/testMoBoMemory/driver/kmod/module_s/memtest/src/MemoryModule.c
+END
+e820_kernel.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/driver/kmod/module_s/memtest/src/e820_kernel.c
+END
+mmtest_intf.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/driver/kmod/module_s/memtest/src/mmtest_intf.h
+END
+numa.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/driver/kmod/module_s/memtest/src/numa.c
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib
+END
+pcitool.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/pcitool.h
+END
+log.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/log.c
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/debug.c
+END
+jedi_comm.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/jedi_comm.c
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/log.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/version.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/debug.h
+END
+jedi_comm.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/jedi_comm.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/jastlib/Makefile
+END

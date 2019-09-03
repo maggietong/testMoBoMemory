@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/input
+END
+full1
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/input/full1
+END
+dimm0
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/input/dimm0
+END
+genpage
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/input/genpage
+END
+genmem
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/input/genmem
+END
+simple1
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/input/simple1
+END
+gencache
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/input/gencache
+END

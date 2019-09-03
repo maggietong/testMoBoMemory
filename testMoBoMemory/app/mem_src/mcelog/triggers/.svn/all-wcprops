@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/triggers
+END
+page-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/triggers/page-error-trigger
+END
+socket-memory-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/triggers/socket-memory-error-trigger
+END
+cache-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/triggers/cache-error-trigger
+END
+dimm-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sw/att/!svn/ver/9/trunk/testMoBoMemory/app/mem_src/mcelog/triggers/dimm-error-trigger
+END

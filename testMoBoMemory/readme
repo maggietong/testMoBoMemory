@@ -1,0 +1,25 @@
+COMMAND NAME:
+    testMemory
+
+FUNCTION DESCRIPTION:
+    These command is used to test mother board memory
+
+SETUP:
+
+   1.  Enter module directory. run "make" ("make install" can start the necessary driver automatically, ignore step 2 if you do so) to get the executable binary and driver.
+   2.  Go to dirver/kmod/module_s/memtest, run "insmod -f memtest.ko". Run "rmmod -f memtest" before if prompted with "File exists" as the driver is already loaded. 
+   3.  Ignore this step if "insmod -f memtest.ko" does not show any error information. Copy memtest.ko to /lib/modules/*.*.*/kernel/drivers, run "depmod" and then "modprobe -f memtest"
+   4. You can now start the test with testMemory in the module folder.
+ 
+PRECONDITION:
+    If you want to run the test, you need to start the kernel with option mem=*** in commandline. You can change it in /boot/grub/grub.conf or edit boot menu.
+    For example, if you want to reserve memory below 5G(including memory holes) for system use, you can specify mem=0x140000000, or mem=5G, or mem=5120M. Normally mem=4G can be used, which reserves about 2G (assume the hole is 2G) memory with holes deducted.
+    
+NOTES:
+    1. Only root could run this command.
+    2. Specify "-list" option to the command to get help information.
+    3. Run testMemory -h to get help information.
+
+EXAMPLE:
+    1. You can type "testMemory" to test all mother board memory.
+
